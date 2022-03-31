@@ -48,10 +48,10 @@ def img_grab():
     # box = (560, 400, 20, 10)
     img = pyautogui.screenshot(region=box)
     check_color(img)
-    global num
-    if(num <=4):
-        img.save(f'{num}.png')
-        num+=1
+    #global num
+    #if(num <=4):
+    #    img.save(f'{num}.png')
+    #    num+=1
 
 
 global current_color, num
